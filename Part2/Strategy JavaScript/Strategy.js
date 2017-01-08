@@ -16,26 +16,21 @@ Shopping.prototype = {
 
 var Sears = function() {
     this.calculate = function(item) {
-        // calculations...
         return "$45.95";
     }
 };
 
 var Macys = function() {
     this.calculate = function(item) {
-        // calculations...
         return "$39.40";
     }
 };
 
 var Amazon = function() {
-    this.calculate = function(item) {
-        // calculations...
+    this.calculate = function(item) {.
         return "$23.20";
     }
 };
-
-// log helper
 
 var log = (function() {
     var log = "";
@@ -47,10 +42,7 @@ var log = (function() {
 })();
 
 function run() {
-    var item = { from: "76712", to: "10012", weigth: "lkg" };
-
-    // the 3 strategies
-
+    var item = { shirt:'long-sleeve' };
     var sears = new Sears();
     var macys = new Macys();
     var amazon = new Amazon();
