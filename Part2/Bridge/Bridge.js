@@ -11,7 +11,7 @@ var ClassVegetables = function(broccoli){
     this.broccoli = broccoli;
 }
 
-var BridgeFruitsAndVegetablesClass{
-  this.fruits = new ClassFruit(apple, banana, pair);
+var BridgeFruitsAndVegetablesClass = function(apple, banana, pear, broccoli){
+  this.fruits = new ClassFruit(apple, banana, pear);
   this.vegetables = new ClassVegetables(broccoli);
 }
