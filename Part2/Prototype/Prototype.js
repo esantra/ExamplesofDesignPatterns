@@ -1,5 +1,5 @@
 /* Inspired from: http://www.dofactory.com/javascript/prototype-design-pattern
-It is important to note that every JS object has a prototype and the prototype*/
+It is important to note that every JS object has a prototype (an implementation of the prototype design pattern*/
 function AnimalPrototype(proto) {
     this.proto = proto;
 
